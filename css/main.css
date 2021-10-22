@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arvo', cursive;
+}
+
+.height {
+  min-height: 100vh;
+}
+
+.height-80 {
+  min-height: 80vh;
+}
+
+.title-underline {
+  /* width: 100%;  - spans across the screen 
+   width: 200   - will work or any height in terms of px*/
+  width: 200px;
+  height: 5px;
+  /* Save you alot - top/bottom- 0 auto-centers it */
+  margin: 0 auto;
+  /* background: blue !important;  needed to ovewrite bg-danger*/
+}
+
+.about-picture {
+  background: url('../img/about-bcg.jpeg') center/cover no-repeat fixed;
+}
+
+#filler,
+#progress {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/projects-1.jpeg') center/cover no-repeat fixed;
+}
+
+.nav-link {
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+
+.nav-link:hover {
+  color: #fff;
+  font-weight: 700;
+}
